@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tv.framework.widget.view.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl_file_item"
+    android:layout_width="210dp"
+    android:layout_height="210dp"
+    android:background="@drawable/selector_item_focus">
+    <ImageView
+        android:id="@+id/iv_file_type_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+    <CheckBox
+        android:id="@+id/cb_muselected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color6">
+
+        <TextView
+            android:id="@+id/tv_file_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="12"
+            android:textSize="27sp"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:paddingRight="10dp"/>
+
+        <com.tv.framework.widget.view.MarqueTextView
+            android:id="@+id/tv_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="----"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_toLeftOf="@id/tv_file_count"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</com.tv.framework.widget.view.SquareRelativeLayout>

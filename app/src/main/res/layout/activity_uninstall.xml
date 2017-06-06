@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_fragment_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:drawableLeft="@mipmap/ic_back"
+        android:paddingLeft="10dp"
+        android:text="@string/uninstall"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"/>
+    <com.tv.framework.widget.view.TvRecyclerView
+        android:id="@+id/rv_uninstall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"/>
+</LinearLayout>

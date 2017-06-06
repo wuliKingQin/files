@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_file_item_focus"
+        android:state_focused="true" />
+    <item
+        android:drawable="@drawable/ic_file_item"
+        android:state_focused="false"/>
+</selector>

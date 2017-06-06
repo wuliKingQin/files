@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">艾管家</string>
+    <!--主界面-->
+    <string name="disk">存储盘</string>
+    <string name="all_file">全部</string>
+    <string name="video">视频</string>
+    <string name="music">音乐</string>
+    <string name="picture">图片</string>
+    <string name="clear">清理</string>
+    <string name="office">办公</string>
+    <string name="install">安装</string>
+    <string name="uninstall">卸载</string>
+
+    <!--公共字符串-->
+    <string name="common_nothing">没有任何文件</string>
+    <string name="can_not_install_out_app">无法安装来自外来的应用</string>
+    <string name="out_disk_insert">有移动设备插入</string>
+    <string name="out_disk_pull_out">移动设备已拔出</string>
+
+    <!--清理界面-->
+    <string name="clean_one_key">一键清理</string>
+    <string name="clean_used">已用</string>
+    <string name="app_cache">软件缓存</string>
+    <string name="system_cache">系统缓存</string>
+    <string name="not_use_apk">无用APK</string>
+    <string name="supper_file">超大文件</string>
+    <string name="scanning">正在扫描</string>
+    <string name="have_scan">已扫描</string>
+    <string name="item">项</string>
+    <string name="one_item">个</string>
+    <string name="scanning_end">扫描结束</string>
+    <string name="cleaning">正在清理</string>
+    <string name="clean_end">清理结束</string>
+    <string name="have_clean">已清理</string>
+
+    <!--设置-->
+    <string name="setting">设置</string>
+    <string name="setting_pic">图片设置</string>
+    <string name="setting_pic_des">（不显示低于10k的图片）</string>
+    <string name="setting_usb">快速打开</string>
+    <string name="setting_usb_des">（识别新增移动设备，提供打开菜单）</string>
+    <string name="setting_hint">按上键获得焦点</string>
+    <string name="install_out_app_hint">亲，可以暂时直接安装外来应用了！</string>
+
+    <!--弹出框界面所需字符串-->
+    <string name="select_file">文件选择</string>
+    <string name="back_up">返回上一级</string>
+    <string name="copy_to">复制到：</string>
+    <string name="sure">确定</string>
+    <string name="not_select_path">未选择路径</string>
+    <string name="not_select_file">没有选中文件</string>
+    <string name="not_select_dir">没有选中目标目录</string>
+    <string name="local_disk">本地存储:</string>
+    <string name="out_disk">外部存储:</string>
+    <string name="multiple_choice">多选</string>
+    <string name="cancel_choice">取消多选</string>
+    <string name="new_build_file">新建</string>
+    <string name="delete_file">删除</string>
+    <string name="copy_file">复制</string>
+    <string name="rename">重命名</string>
+    <string name="file_info">文件属性</string>
+    <string name="rescan">重新扫描</string>
+    <string name="copy_hint">正在复制中,……</string>
+    <string name="copy_title">复制文件</string>
+    <string name="sure_copy_hint">复制的文件太长，确定要复制嘛？</string>
+
+    <!--dialog所需字符串-->
+    <string name="input_new_file_name">输入新建文件名</string>
+    <string name="create_new_file_success">创建新文件夹成功</string>
+    <string name="create_new_file_fail">创建新文件夹失败</string>
+    <string name="new_file_name_not_empty">新文件夹名字不能为空</string>
+    <string name="can_not_delete_file">确定要删除该文件嘛？</string>
+    <string name="delete_file_success">删除文件成功</string>
+    <string name="delete_file_fail">删除文件失败</string>
+    <string name="rename_file">重命名文件</string>
+    <string name="rename_fail">重命名失败</string>
+    <string name="rename_success">重命名成功</string>
+    <string name="not_input_nothing">你没有输入任何名字</string>
+    <string name="file_size">文件大小：</string>
+    <string name="file_location">文件位置：</string>
+    <string name="modify_time">修改时间：</string>
+    <string name="copy_success">复制文件成功</string>
+    <string name="copy_fail">复制文件失败</string>
+    <string name="open_file_fail">打开文件失败</string>
+    <string name="can_not_open_file">无法打开此文件</string>
+
+</resources>

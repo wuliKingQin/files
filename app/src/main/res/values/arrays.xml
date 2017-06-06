@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="video_suffix">
+        <item>mp4</item>
+        <item>3gp</item>
+        <item>wmv</item>
+        <item>ts</item>
+        <item>rmvb</item>
+        <item>mov</item>
+        <item>m4v</item>
+        <item>avi</item>
+        <item>m3u8</item>
+        <item>3gpp</item>
+        <item>3gpp2</item>
+        <item>mkv</item>
+        <item>flv</item>
+        <item>divx</item>
+        <item>f4v</item>
+        <item>rm</item>
+        <item>asf</item>
+        <item>ram</item>
+        <item>mpg</item>
+        <item>v8</item>
+        <item>swf</item>
+        <item>m2v</item>
+        <item>asx</item>
+        <item>ra</item>
+        <item>ndivx</item>
+        <item>xvid</item>
+        <item>dat</item>
+    </string-array>
+    <string-array name="music_suffix">
+        <item>mp3</item>
+        <item>flac</item>
+        <item>aac</item>
+        <item>mmf</item>
+        <item>amr</item>
+        <item>m4a</item>
+        <item>m4r</item>
+        <item>ogg</item>
+        <item>wav</item>
+        <item>wavpack</item>
+        <item>au</item>
+        <item>mpc</item>
+        <item>mid</item>
+        <item>rmi</item>
+    </string-array>
+    <string-array name="picture_suffix">
+        <item>jpg</item>
+        <item>gif</item>
+        <item>png</item>
+        <item>bmp</item>
+        <item>webp</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:padding="30dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_common"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_empty_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_exp_empty"
+        android:text="@string/common_nothing"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="20dp"
+        android:textColor="@color/color3"/>
+</RelativeLayout>

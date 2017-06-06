@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_folder_name"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:text="----"
+    android:textSize="25sp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:drawablePadding="10dp"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:textColor="@android:color/white"/>
